@@ -26,7 +26,7 @@ const port = 8080;
 
 
 // lancer le serveur et attendre
-app.listen(port, '127.0.0.1',
+app.listen(port, '172.16.192.254',
     ()=>{
         console.log('Server Pokedex is listening on ' + port);
     }
